@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+Body {
+    Max-width: 1200px;
+    Margin: 5%;
+    background-color: #93a996;
+    font-family: 'Cabin', sans-serif;
+}
+
+.content {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.content img {
+
+    border-radius: 4em 8em;
+    -webkit-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Chau Philomene One', sans-serif;
+}
+
+.elenco {display: block; text-align: center;}
+ul {display: inline-block; text-align: left;}
+
+table {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 23px;
+}
+
+footer {
+    text-align: center;
+}
+
+.fondo {
+    background: linear-gradient(120deg, #93a996, #96e6a1 100%);
+}
+
+.top {
+    text-decoration: none;
+}
+
+p {
+    
+    font-size: 1em;
+}
+
+.btn1{
+    display:inline-block;
+    padding:1em 2em;
+    border:none;
+    margin:0.03em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:"arial";
+    font-weight:300;
+    color:#FDFDFD;
+    text-align:center;
+    transition: 0.2s;
+    background:rgb(123,135,255);
+    cursor:pointer;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-radius: 30px;
+}
+
+.btn1:hover{
+    background:rgb(96,110,255);
+}
+
+.btn1:active, .btn3:focus{
+    background:rgb(195,200,255);
+    color:rgb(96,110,255);
+}
